@@ -12,7 +12,8 @@ pipeline {
                 sh '''
                     ls -la
                     npm --version
-                    vite build
+                    npm run build
+                    ls -la
                 '''
             }
 
