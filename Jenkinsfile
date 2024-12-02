@@ -1,9 +1,6 @@
 pipeline {
     agent any
 
-    environment{
-        
-    }
     stages {
         stage('Hello') {
             steps {
@@ -14,7 +11,6 @@ pipeline {
             steps{
                 sh '''
                     ls -la
-                    vite --version
                     npm --version
                     vite build
                 '''
