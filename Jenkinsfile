@@ -17,6 +17,7 @@ pipeline {
             steps{
                 sh '''
                     npm install vite
+                    npm i -D @sveltejs/adapter-netlify
                 '''
             }
         }
