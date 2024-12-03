@@ -38,6 +38,7 @@ pipeline {
                     node_modules/.bin/netlify status
                     cd ..
                     ls -la
+                    node_modules/.bin/netlify deploy dir=Schkapp --prod
                 '''
             }
         }
