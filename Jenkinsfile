@@ -33,12 +33,7 @@ pipeline {
         stage('Deploy'){
             steps{
                 sh '''
-                    npm install netlify-cli
-                    node_modules/.bin/netlify --version 
-                    node_modules/.bin/netlify status
-                    cd ..
-                    ls -la
-                    node_modules/.bin/netlify deploy dir=Schkapp --prod
+                    echo "Deploying to Netlify"
                 '''
             }
         }
