@@ -18,6 +18,7 @@ pipeline {
                 sh '''
                     npm install vite
                     npm i -D @sveltejs/adapter-netlify
+                    npm install netlify-cli --save-dev
                 '''
             }
         }
@@ -35,6 +36,7 @@ pipeline {
             steps{
                 sh '''
                     echo "Deploying to Netlify"
+                    netlify deploy --prod
                 '''
             }
         }
