@@ -6,7 +6,7 @@
 
 <div class="app">
     <header>
-        <h1>w</h1>
+        <h1>Du Hurensohn</h1>
     </header>
 
     <main>
