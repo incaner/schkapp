@@ -8,16 +8,12 @@ pipeline {
         NETLIFY_AUTH_TOKEN = credentials('netlify')
     }
     stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
-        }
         stage('Preparation'){
             steps{
                 sh '''
                     npm install vite
                     npm i -D @sveltejs/adapter-netlify
+                    npm install --save-dev vitest
                     npm install netlify-cli --save-dev
                 '''
             }
@@ -25,7 +21,6 @@ pipeline {
         stage('Build'){
             steps{
                 sh '''
-                    ls -la
                     npm run build
                     ls -la
                 '''
