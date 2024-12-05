@@ -11,10 +11,10 @@ pipeline {
         stage('Preparation'){
             steps{
                 sh '''
-                    npm install vite
-                    npm i -D @sveltejs/adapter-netlify
-                    npm install --save-dev vitest
-                    npm install netlify-cli --save-dev
+                    echo "npm install vite"
+                    echo "npm i -D @sveltejs/adapter-netlify"
+                    echo "npm install --save-dev vitest"
+                    echo "npm install netlify-cli --save-dev"
                 '''
             }
         }
