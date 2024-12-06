@@ -43,10 +43,10 @@ pipeline {
                 '''
             }
         }
-        post {
-            allways {
-                junit 'junit-report.xml'
-            }
+    }
+    post {
+        allways{
+            junit 'junit-report.xml'
         }
     }
 }
