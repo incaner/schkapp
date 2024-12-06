@@ -13,6 +13,7 @@ pipeline {
                 sh '''
                     npm install --save-dev vite
                     npm install -D @sveltejs/adapter-netlify
+                    npm install --save-dev jsdom
                     npm install --save-dev vitest
                     npm install --save-dev netlify-cli 
                 '''
