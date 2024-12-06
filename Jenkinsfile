@@ -43,5 +43,10 @@ pipeline {
                 '''
             }
         }
+        post {
+            allways {
+                junit 'junit-report.xml'
+            }
+        }
     }
 }
