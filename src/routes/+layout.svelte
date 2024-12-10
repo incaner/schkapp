@@ -6,7 +6,7 @@
 
 <div class="app">
     <header>
-        <h1>Schkapp</h1>
+        <h1>Schkapp test</h1>
     </header>
 
     <main>
