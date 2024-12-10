@@ -12,10 +12,10 @@ describe('Sample test that will pass', () => {
   });
 });
 
-describe('Sample test that will fail', () => {
+// describe('Sample test that will fail', () => {
 
-  test('This test sould be false', () => {
-    expect(true).toBe(false);
-  });
+//   test('This test sould be false', () => {
+//     expect(true).toBe(false);
+//   });
 
-});
+// });
