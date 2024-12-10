@@ -7,7 +7,7 @@
         <p>Züge, auf die gewettet wird, werden live von der Deutschen Bahn angefragt und enthalten reale
             Ereignisse.
         </p>
-        <p>Es handelt sich um ein Trinkspiel, wird richtig getippt dürfen Schlücke an andere Mitspieler verteilt
+        <p>Es handelt sich um ein Trinkspiel wird richtig getippt dürfen Schlücke an andere Mitspieler verteilt
             werden. Wird falsch getippt muss man selbst trinken.
         </p>
 
