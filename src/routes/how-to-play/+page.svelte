@@ -1,19 +1,5 @@
 <div>
-    <div>
-        <h1 style="margin-top: 0px">Spielidee</h1>
-        <p>Es wird auf Verspätungsbegründungen von Zügen gewettet. Eine Verspätungsbegründung ist zum Beispiel
-            “Verspätung eines vorrausfahrenden Zuges” oder “Bauarbeiten”.
-        </p>
-        <p>Züge, auf die gewettet wird, werden live von der Deutschen Bahn angefragt und enthalten reale
-            Ereignisse.
-        </p>
-        <p>Es handelt sich um ein Trinkspiel, wird richtig getippt dürfen Schlücke an andere Mitspieler verteilt
-            werden. Wird falsch getippt muss man selbst trinken.
-        </p>
-
-        <h2>Ziel</h2>
-        <p>Hacke werden.</p>
-    </div>
+    Jenkins ist toll 
 
     <h1>Ablauf einer Runde</h1>
     <h2>1. Wette</h2>
